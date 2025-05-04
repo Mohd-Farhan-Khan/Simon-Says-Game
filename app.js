@@ -33,7 +33,7 @@ function playLevelUpSound() {
     sound.play();
 }
 
-// Function to play game over sound
+// Function to play game over different sounds
 function playGameOverSound() {
     const sound = document.getElementById("game-over-sound");
     sound.currentTime = 0;
